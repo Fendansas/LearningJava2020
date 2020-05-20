@@ -10,5 +10,6 @@ public class MainTask5 {
         String[] e;
         e = a.split(space);
         System.out.println("Вы ввели "+e.length + " слова");
+
     }
 }
