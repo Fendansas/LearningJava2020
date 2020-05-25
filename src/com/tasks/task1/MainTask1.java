@@ -3,18 +3,20 @@ package com.tasks.task1;
 
 public class MainTask1 {
     public static void main(String[] args) {
-        smallestNumber(25, 37, 29);
+        System.out.println("Самое маленькое число "+ smallestNumber(25, 37, 29));
     }
 
 
-    private static void smallestNumber(int a, int b, int c) {
+    private static int smallestNumber(int a, int b, int c) {
+        int smallestNumber =0;
         if (a <= b & a <= c) {
-            System.out.println("the smallest number is " + a);
+            smallestNumber= a;
         } else if (b <= a & b <= c) {
-            System.out.println("the smallest number is " + b);
+            smallestNumber= b;
         } else if (c <= a & c <= b) {
-            System.out.println("the smallest number is " + c);
+            smallestNumber= c;
         }
+        return smallestNumber;
     }
 }
 
