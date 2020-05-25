@@ -5,18 +5,23 @@ package com.tasks.task3;
 
 public class MainTask3 {
     public static void main(String[] args) {
-        middleCharacter("12321");
+        System.out.println(middleCharacter("фdвф"));
     }
-    private static void middleCharacter(String a) {
+
+    private static String middleCharacter(String a) {
+        int p;
+        int o;
         int s = a.length();
         int b = s % 2;
-        int v = s / 2;
         if (b == 0) {
-            System.out.println(a.charAt(v - 1) + "" + a.charAt(v));
+            p = s / 2 - 1;
+            o = 2;
+
         } else {
-            System.out.println(a.charAt(v));
+            p = s / 2;
+            o = 1;
         }
-        //System.out.println(s);
+        return a.substring(p, p + o);
     }
 
 }

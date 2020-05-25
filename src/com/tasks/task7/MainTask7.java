@@ -12,6 +12,7 @@ public class MainTask7 {
 
     }
     public static int pentogonalNumbers(int i){
-        return (i*(3*i-1))/2;
+        int j = (i*(3*i-1))/2;
+        return j;
     }
 }

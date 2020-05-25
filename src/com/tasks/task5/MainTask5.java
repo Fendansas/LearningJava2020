@@ -3,13 +3,15 @@ package com.tasks.task5;
 
 public class MainTask5 {
     public static void main(String[] args) {
-        countAllWords("Привет как дела?");
+        System.out.println("В предложении " + countAllWords("Привет как дела?") + " буквы");
     }
-    private static void countAllWords (String a){
+    private static int countAllWords (String a){
         String space = " ";
         String[] e;
         e = a.split(space);
-        System.out.println("Вы ввели "+e.length + " слова");
+        int i = e.length;
+        return i;
+
 
     }
 }

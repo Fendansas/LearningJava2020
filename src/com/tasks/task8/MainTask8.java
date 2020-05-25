@@ -3,24 +3,23 @@ package com.tasks.task8;
 
 public class MainTask8 {
     public static void main(String[] args) {
-        investmentValue(10,1000, 5);
+        for (int k = 1;k <= 5; k++){
+            double investment = investmentValue(10,1000);
+            System.out.println(investmentValue(10, investment));
+        }
 
     }
-    public static void investmentValue (double interest, double investment, int year){
-        year = year*12;
+    public static double investmentValue (double interest, double investment){
+        int year = 12;
         double d = 12;
         double g = 100;
         int r =0;
-        System.out.println("Year         FutureValue");
+
         for(int i = 1; i<=year; i++){
             double e = (investment*((interest/d)/g));
             investment = e+investment;
-            if(i%12==0){
-                r++;
-                System.out.print(r+"              ");
-                System.out.printf("%.2f", investment);
-                System.out.println(" ");
-            }
+
         }
+        return investment;
     }
 }

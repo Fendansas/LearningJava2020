@@ -3,14 +3,22 @@ package com.tasks.task6;
 
 public class MainTask6 {
     public static void main(String[] args) {
-        summNambers(9);// работает только для 2х значных цифр
+        System.out.println("сумма чисел " + summNambers(100));// работает только для 2х значных цифр
     }
-    private static void summNambers (Integer a){
-        int q = a.intValue();
-        int d = q / 10;
-        int r = q%10;
-        int y = d+r;
-        System.out.println("Сумма чисел " + y);
+    private static int summNambers (Integer a){
+        int y = 0;
+        if (a>99){
+            System.out.println("Неверное чило, ввидите 2х значное число");
+        }
+        else {
+            int q = a.intValue();
+            int d = q / 10;
+            int r = q % 10;
+            y = d + r;
+        }
+
+
+        return y;
 
     }
 }

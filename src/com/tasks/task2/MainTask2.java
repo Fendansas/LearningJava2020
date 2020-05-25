@@ -6,18 +6,20 @@ public class MainTask2 {
     public static void main(String[] args) {
 
 
-        averageNumber(25, 37, 29);
+        System.out.println("Среднее число " + averageNumber(25, 37, 29));
     }
-    private static void averageNumber(int a, int b, int c) {
+    private static int averageNumber(int a, int b, int c) {
+        int f=0;
         if (a >= b & a <= c) {
-            System.out.println("the average number is " + a);
+            f=a;
         }
         if (b >= a & b <= c) {
-            System.out.println("the average number is " + b);
+            f=b;
         }
         if (c >= a & c <= b) {
-            System.out.println("the average number is " + c);
+            f=c;
         }
+        return f;
     }
 
 }

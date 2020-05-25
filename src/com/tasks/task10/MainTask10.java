@@ -2,19 +2,26 @@ package com.tasks.task10;
 
 public class MainTask10 {
     public static void main(String[] args) {
-        LeapYaer(2008);
+        int year = 2008;
+        System.out.println(" вы ввели " + year + " если будет true год високостный : "+  LeapYear(year));
 
     }
-    public static void LeapYaer(int year){
+    public static boolean LeapYear(int year){
+        boolean f = false;
         if(year%4==0 && year%100 !=0){
-            System.out.println("Год високосный "+ year);
+            f = true;
+
+
         }
         if(year%100==0&&year%400==0){
-            System.out.println("Год високосный "+ year);
+            f = true;
+
         }
         if (year%4!=0) {
-            System.out.println("Год обычный "+ year);
+            f = false;
+
         }
+        return f;
 
 
     }

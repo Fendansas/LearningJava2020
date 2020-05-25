@@ -4,9 +4,9 @@ package com.tasks.task4;
 
 public class MainTask4 {
     public static void main(String[] args) {
-        allVowels("Hello");
+        System.out.println("Глысных букв " + allVowels("Hello"));
     }
-    private static void allVowels(String a) {
+    private static int allVowels(String a) {
         String r = a.toLowerCase();
         String q = r.replaceAll(" ", ""); // не понял как удалить, заменил пробелы.
         char[] b = q.toCharArray();
@@ -16,6 +16,6 @@ public class MainTask4 {
                 index++;
             }
         }
-        System.out.println("Гласных букв в слове "+index);
+        return index;
     }
 }
