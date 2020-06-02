@@ -1,18 +1,35 @@
 package com.tasks.university;
 
-public class Students extends DeansOffice {
-
+public abstract class Students {
+    private String name;
+    private String sureName;
     private int tuitionFee; // оплата за учебу
     private int course;
-    private String faculty;
 
-    public Students(String position, int salary, String surname, String name, String dateOfBirth, String address, Integer phoneNumber, int tuitionFee, int course, String faculty) {
-        super(position, salary, surname, name, dateOfBirth, address, phoneNumber);
+
+
+    public Students(String name, String sureName, int tuitionFee, int course) {
+        this.name = name;
+        this.sureName = sureName;
         this.tuitionFee = tuitionFee;
         this.course = course;
-        this.faculty = faculty;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSureName() {
+        return sureName;
+    }
+
+    public void setSureName(String sureName) {
+        this.sureName = sureName;
+    }
 
     public int getTuitionFee() {
         return tuitionFee;
@@ -28,13 +45,5 @@ public class Students extends DeansOffice {
 
     public void setCourse(int course) {
         this.course = course;
-    }
-
-    public String getFaculty() {
-        return faculty;
-    }
-
-    public void setFaculty(String faculty) {
-        this.faculty = faculty;
     }
 }
