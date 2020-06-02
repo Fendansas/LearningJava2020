@@ -1,9 +1,11 @@
 package com.tasks.university;
 
-public abstract class UniversityMadElks {
+public class UniversityMadElks {
     final static String NAME_UNIVERSITY = "MadElks";
     final static String UNIVERSITY_SPECIALIZATION = "CQB tactics";
-    Library library = new Library();
+    private Library library;
+    private DeansOffice deansOffice;
+
 
     public static String getNameUniversity() {
         return NAME_UNIVERSITY;
