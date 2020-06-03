@@ -5,7 +5,7 @@ public class Student extends Students {
         super(name, sureName, tuitionFee, course);
     }
 
-    public static void duty(){
+    public static void duty() {
         System.out.println("Вытирает доску");
     }
 }

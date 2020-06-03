@@ -6,6 +6,6 @@ public class Dean extends Employees {
     }
 
     public static void setsOff() {
-        System.out.println("есл повезет поставль зачет");
+        System.out.println("если повезет поставлю зачет");
     }
 }

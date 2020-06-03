@@ -5,6 +5,7 @@ public class UniversityMadElks {
     final static String UNIVERSITY_SPECIALIZATION = "CQB tactics";
     private Library library;
     private DeansOffice deansOffice;
+    private Faculty faculty;
 
 
     public static String getNameUniversity() {
