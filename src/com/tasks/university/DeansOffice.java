@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class DeansOffice {
     private int beginningOfWork;
     private int endOfWork;
-    private Secretary secretary;
+    private ArrayList<Secretary> secretary;
     private ArrayList<Dean> deans;
 
     public DeansOffice(int beginningOfWork, int endOfWork) {
@@ -29,11 +29,11 @@ public class DeansOffice {
         this.endOfWork = endOfWork;
     }
 
-    public Secretary getSecretary() {
+    public ArrayList<Secretary> getSecretary() {
         return secretary;
     }
 
-    public void setSecretary(Secretary secretary) {
+    public void setSecretary(ArrayList<Secretary> secretary) {
         this.secretary = secretary;
     }
 
