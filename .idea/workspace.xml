@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="671a86f0-a9e2-4d0c-ae2f-c925654754a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/epam/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task1/MainDaysOfTheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task1/MainLocationNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task1/MainMinMaxMid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task1/MainThreeRangesOfNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="671a86f0-a9e2-4d0c-ae2f-c925654754a6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +41,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task1/MainMinMaxMid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="421">
+              <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task1/MainLocationNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -192,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainLocationNumber">
+  <component name="RunManager" selected="Application.MainMinMaxMid">
     <configuration name="MainDaysOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.home.task1.MainDaysOfTheWeek" />
       <module name="LearningJava2020" />
@@ -267,8 +260,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainLocationNumber" />
         <item itemvalue="Application.MainMinMaxMid" />
+        <item itemvalue="Application.MainLocationNumber" />
         <item itemvalue="Application.MainDaysOfTheWeek" />
         <item itemvalue="Application.MainThreeRangesOfNumbers" />
         <item itemvalue="Application.MainUniversity" />
@@ -377,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591304886337</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="V15.06">
+      <created>1592170489241</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592170489241</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -739,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task1/MainMinMaxMid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task1/MainThreeRangesOfNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -764,6 +757,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task1/MainMinMaxMid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="50" />
         </state>
       </provider>
     </entry>

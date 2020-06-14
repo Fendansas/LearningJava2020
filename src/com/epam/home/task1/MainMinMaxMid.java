@@ -48,8 +48,8 @@ public class MainMinMaxMid {
     }
 
    // метод находит среднее арефметическое.
-    private static int averageArithmeticNumber(int a, int b, int c) {
-        int averageArithmetic = (a + b + c) / 3;
+    private static float averageArithmeticNumber(float a, float b, float c) {
+        float averageArithmetic = (a + b + c) / 3;
         return averageArithmetic;
     }
 
