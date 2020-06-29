@@ -1,6 +1,7 @@
 package com.epam.home.task2;
 
 import java.util.Scanner;
+//Пользователь вводит месяц и день (числа). Вывести, есть ли такой день в этом месяце
 
 public class MainMonthDay {
     public static void main(String[] args) {
@@ -10,8 +11,9 @@ public class MainMonthDay {
         System.out.println("Ввидите месяц (их 12)");
         int month = scanner.nextInt();
 
-        System.out.println("Ввидите день (от 0 до 31)");
+        System.out.println("Ввидите день (от 1 до 31)");
         int dayInput = scanner.nextInt();
+
 
         System.out.println("Из свич кейса");
 
@@ -28,7 +30,7 @@ public class MainMonthDay {
 
         int monthProg = month-1;
 
-        if (monthProg <= year.length && dayInput <= year[monthProg]) {
+        if (monthProg <= year.length && dayInput <=year[monthProg]) {
             System.out.println("Такой день и месяц есть");
         }else System.out.println("Такого дня нету");
     }

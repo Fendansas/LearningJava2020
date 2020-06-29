@@ -2,6 +2,9 @@ package com.epam.home.task2;
 
 import java.util.Scanner;
 
+//Задать пользователю любой вопрос и дать ограниченное количество попыток для верного ответа.
+// Предусмотреть возможность сдаться.
+
 public class MainQuestion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

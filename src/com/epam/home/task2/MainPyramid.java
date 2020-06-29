@@ -3,6 +3,13 @@ package com.epam.home.task2;
 
 import java.util.Scanner;
 
+// Вывести пирамиду из цифр. Размер вводится пользователем. Пирамида - фигура такого вида:
+//1 1 1 1 1
+//1 2 2 2 1
+//1 2 3 2 1
+//1 2 2 2 1
+//1 1 1 1 1
+
 public class MainPyramid {
     public static void main(String[] args) {
 
