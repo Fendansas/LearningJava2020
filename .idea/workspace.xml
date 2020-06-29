@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="671a86f0-a9e2-4d0c-ae2f-c925654754a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task2/MainMonthDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task2/MainMonthDay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/epam/home/task2/MainPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task2/MainPyramid.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainPyramid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -38,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainMonthDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -47,13 +48,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="540">
               <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainRandomNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -167,16 +168,16 @@
         <option value="$PROJECT_DIR$/src/com/epam/home/task1/MainLocationNumber.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task1/MainMinMaxMid.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task1/MainPass.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/home/task2/MainMonthDay.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task2/MainQuestion.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task2/MainRandomNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/home/task2/MainMonthDay.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task2/MainPyramid.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
-    <option name="y" value="261" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="93" />
+    <option name="y" value="60" />
     <option name="width" value="1397" />
     <option name="height" value="785" />
   </component>
@@ -186,8 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +242,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainPyramid">
+  <component name="RunManager" selected="Application.MainMonthDay">
     <configuration name="MainMonthDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.home.task2.MainMonthDay" />
       <module name="LearningJava2020" />
@@ -336,10 +337,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainMonthDay" />
         <item itemvalue="Application.MainPyramid" />
         <item itemvalue="Application.MainRandomNumber" />
         <item itemvalue="Application.MainQuestion" />
-        <item itemvalue="Application.MainMonthDay" />
         <item itemvalue="Application.MainPass" />
       </list>
     </recent_temporary>
@@ -474,13 +475,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592859333741</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="V26.06">
+      <created>1593120931607</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1593120931685</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="261" width="1397" height="785" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26402393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21882641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -490,7 +498,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33843797" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24720357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39816234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +507,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Extract Method" order="11" weight="0.32997763" />
+      <window_info anchor="bottom" id="Extract Method" order="11" weight="0.32924962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -556,7 +564,8 @@
     <MESSAGE value="V15.06-1" />
     <MESSAGE value="V21.06" />
     <MESSAGE value="V22.06" />
-    <option name="LAST_COMMIT_MESSAGE" value="V22.06" />
+    <MESSAGE value="V26.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="V26.06" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
@@ -840,20 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainMonthDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task1/MainDaysOfTheWeek.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -893,17 +888,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainRandomNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainMonthDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainPyramid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainRandomNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>

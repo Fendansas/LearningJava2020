@@ -7,14 +7,34 @@ public class MainMonthDay {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ввидите месяц");
+        System.out.println("Ввидите месяц (их 12)");
         int month = scanner.nextInt();
 
-        System.out.println("Ввидите день");
+        System.out.println("Ввидите день (от 0 до 31)");
         int dayInput = scanner.nextInt();
 
+        System.out.println("Из свич кейса");
+
         checkMonth(month, dayInput);
+
+        System.out.println("Из массива");
+
+        checkMonthArray(month, dayInput);
     }
+
+    private static void checkMonthArray(int month, int dayInput) {
+
+        int[] year = {31,29,31,31,31,30,31,31,30,31,30,31};
+
+        int monthProg = month-1;
+
+        if (monthProg <= year.length && dayInput <= year[monthProg]) {
+            System.out.println("Такой день и месяц есть");
+        }else System.out.println("Такого дня нету");
+    }
+
+
+    //вротой вариант решения задания
 
     private static void checkMonth(int month, int dayInput) {
         switch (month) {
