@@ -15,6 +15,6 @@ public class NameAge {
         System.out.println("Ввидите год рождения");
         String age = scanner.nextLine();
 
-        System.out.println(String.format("Привет %s тебе %s лет",name,age));
+        System.out.println(String.format("Привет %s, ты родился в %s году", name, age));
     }
 }

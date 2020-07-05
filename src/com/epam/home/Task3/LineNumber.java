@@ -5,22 +5,22 @@ package com.epam.home.Task3;
 
 public class LineNumber {
     public static void main(String[] args) {
+
         int max = 100;
         String str = "";
         StringBuilder builder = new StringBuilder(str);
-        System.out.println(builder);
 
         while (max >= 0) {
-            int random = (int)(Math.random()*1000);
-
+            int random = (int) (Math.random() * 1000);
             builder.append(random + " ");
-
             max--;
         }
+
         System.out.println(builder);
 
         String sas = builder.toString();
         String sas1 = sas.replaceAll("\\s\\d{2}\\s", " -1 ");
+
         System.out.println(sas1);
     }
 }
