@@ -1,6 +1,6 @@
 package com.epam.home.task4;
 
-public class Rate {
+public abstract class Rate {
 
     private String name;
     private  int subscriptionFee;
