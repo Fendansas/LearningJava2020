@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671a86f0-a9e2-4d0c-ae2f-c925654754a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bookTask/Task_11_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookTask/Task_11_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookTask/Task_11_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bookTask/Task_11_11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task4/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task4/Rate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bookTask/Task_11_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bookTask/Task_11_10.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/Rate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -50,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="578">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,16 +61,34 @@
         <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_9.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_10.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainRandomNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -111,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/tasks/fizzBuzz/MainFizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/com/tasks/task2/MainTask2.java" />
         <option value="$PROJECT_DIR$/src/com/tasks/task3/MainTask3.java" />
         <option value="$PROJECT_DIR$/src/com/tasks/task4/MainTask4.java" />
@@ -162,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/com/bookTask/Task_11_6.java" />
         <option value="$PROJECT_DIR$/src/com/bookTask/Task_11_9.java" />
         <option value="$PROJECT_DIR$/src/com/bookTask/Task_11_10.java" />
+        <option value="$PROJECT_DIR$/src/com/bookTask/Task_11_11.java" />
       </list>
     </option>
   </component>
@@ -177,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,7 +265,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -270,9 +286,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_11_9">
-    <configuration name="Task_11_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bookTask.Task_11_2" />
+  <component name="RunManager" selected="Application.Task_11_11">
+    <configuration name="Task_11_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bookTask.Task_11_10" />
       <module name="LearningJava2020" />
       <extension name="coverage">
         <pattern>
@@ -284,8 +300,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_11_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bookTask.Task_11_3" />
+    <configuration name="Task_11_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bookTask.Task_11_11" />
       <module name="LearningJava2020" />
       <extension name="coverage">
         <pattern>
@@ -337,19 +353,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task_11_2" />
-      <item itemvalue="Application.Task_11_3" />
       <item itemvalue="Application.Task_11_4" />
       <item itemvalue="Application.Task_11_6" />
       <item itemvalue="Application.Task_11_9" />
+      <item itemvalue="Application.Task_11_10" />
+      <item itemvalue="Application.Task_11_11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_11_11" />
+        <item itemvalue="Application.Task_11_10" />
         <item itemvalue="Application.Task_11_9" />
         <item itemvalue="Application.Task_11_6" />
         <item itemvalue="Application.Task_11_4" />
-        <item itemvalue="Application.Task_11_3" />
-        <item itemvalue="Application.Task_11_2" />
       </list>
     </recent_temporary>
   </component>
@@ -532,13 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594240904435</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="V09.07">
+      <created>1594328324287</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1594328324287</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2408313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24388753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -622,16 +646,10 @@
     <MESSAGE value="V02.07" />
     <MESSAGE value="V05.07" />
     <MESSAGE value="V08.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="V08.07" />
+    <MESSAGE value="V09.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="V09.07" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tasks/task10/MainTask10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tasks/task12/MainTask12.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -963,38 +981,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainRandomNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/Rate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -1007,25 +997,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="578">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_9.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task2/MainRandomNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="238">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookTask/Task_11_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
