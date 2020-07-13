@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671a86f0-a9e2-4d0c-ae2f-c925654754a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task4/helper/InternetQuality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task4/interfaces/Connected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task4/model/Rate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/home/task4/model/RateOnlyCall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task4/Rate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task4/RateOnlyCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task4/helper/InternetQuality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task4/helper/InternetQuality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/interfaces/Connected.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -36,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/model/Rate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
+            <state relative-caret-position="663">
               <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="e#358#359#0" expanded="true" />
@@ -65,13 +60,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/helper/InternetQuality.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="238">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,15 +75,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="323">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1863#1864#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/tasks/university/UniversityMadElsk.java" />
         <option value="$PROJECT_DIR$/src/com/tasks/university/Book.java" />
         <option value="$PROJECT_DIR$/src/com/tasks/university/GroupLeader.java" />
         <option value="$PROJECT_DIR$/src/com/tasks/university/Students.java" />
@@ -171,13 +173,14 @@
         <option value="$PROJECT_DIR$/src/com/epam/home/task4/model/Rate.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task4/model/ConnectionQuality.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task4/model/InternetQuality.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/home/task4/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task4/model/RateOnlyCall.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/home/task4/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/home/task4/helper/InternetQuality.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1177" />
@@ -563,14 +566,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594414672336</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="V13.07">
+      <created>1594672884259</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1594672884260</updated>
+    </task>
+    <task id="LOCAL-00028" summary="V13.07">
+      <created>1594674030324</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1594674030324</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24205379" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16442543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1015,35 +1032,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/interfaces/Connected.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/model/Rate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="663">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
           <folding>
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/helper/InternetQuality.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1061,22 +1062,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/model/Rate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/model/RateAlwaysOnline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="323">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/helper/InternetQuality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

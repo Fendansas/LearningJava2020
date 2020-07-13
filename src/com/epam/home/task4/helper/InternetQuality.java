@@ -12,6 +12,6 @@ public enum InternetQuality {
     }
 
     public String getValue() {
-        return value;
+        return  value;
     }
 }

@@ -6,17 +6,18 @@ import com.epam.home.task4.model.RateOnlyCall;
 
 import java.util.Arrays;
 
+import static com.epam.home.task4.helper.InternetQuality.*;
+
 public class Main {
     public static void main(String[] args) {
 
-        RateAlwaysOnline rateAlwaysOnline1 = new RateAlwaysOnline("Free internet 1", 200, 1111, 15, 20);
-        RateAlwaysOnline rateAlwaysOnline2 = new RateAlwaysOnline("Free internet 2", 100, 1111, 5, 10);
-        RateAlwaysOnline rateAlwaysOnline3 = new RateAlwaysOnline("Free internet 3", 150, 1111, 7, 13);
+        RateAlwaysOnline rateAlwaysOnline1 = new RateAlwaysOnline("Free internet 1", 200, 1111, 15, 20, EXCELLENT);
+        RateAlwaysOnline rateAlwaysOnline2 = new RateAlwaysOnline("Free internet 2", 100, 1111, 5, 10, NORMAL);
+        RateAlwaysOnline rateAlwaysOnline3 = new RateAlwaysOnline("Free internet 3", 150, 1111, 7, 13, BAD);
 
         RateOnlyCall rateOnlyCall1 = new RateOnlyCall("Calling 1", 90, 222, 100, 200);
         RateOnlyCall rateOnlyCall2 = new RateOnlyCall("Calling 2", 50, 222, 20, 40);
         RateOnlyCall rateOnlyCall3 = new RateOnlyCall("Calling 3", 70, 222, 70, 70);
-
 
         System.out.println(rateAlwaysOnline1);
 
@@ -56,7 +57,8 @@ public class Main {
         rateAlwaysOnline1.call();
         rateAlwaysOnline1.internet();
 
-        System.out.println("Количество клиентов " +rates.length);
+        System.out.println("Количество клиентов " + rates.length);
+
     }
 
     //Выводит тарифы в заданном диапазоне
