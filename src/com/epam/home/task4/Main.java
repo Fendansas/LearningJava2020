@@ -55,6 +55,8 @@ public class Main {
         rateOnlyCall1.call();
         rateAlwaysOnline1.call();
         rateAlwaysOnline1.internet();
+
+        System.out.println("Количество клиентов " +rates.length);
     }
 
     //Выводит тарифы в заданном диапазоне

@@ -1,5 +1,7 @@
 package com.epam.home.task4.model;
 
+import com.epam.home.task4.helper.InternetQuality;
+
 public class RateAlwaysOnline extends Rate {
 
     public RateAlwaysOnline(String name, int subscriptionFee, int pin) {
@@ -8,20 +10,31 @@ public class RateAlwaysOnline extends Rate {
 
     private int speedInternetMin;
     private int speedInternetMax;
-    //private Quality quality; / не получилось сделать непонятно в чем ошибка
+    //private Quality quality; // не получилось сделать непонятно в чем ошибка
 
-    public RateAlwaysOnline(String name, int subscriptionFee, int pin, int speedInternetMin, int speedInternetMax) {
+   /* public RateAlwaysOnline(String name, int subscriptionFee, int pin, int speedInternetMin, int speedInternetMax, Quality quality) {
+        super(name, subscriptionFee, pin);
+        this.speedInternetMin = speedInternetMin;
+        this.speedInternetMax = speedInternetMax;
+        this.quality = quality;
+    }
+
+    */
+
+     public RateAlwaysOnline(String name, int subscriptionFee, int pin, int speedInternetMin, int speedInternetMax) {
         super(name, subscriptionFee, pin);
         this.speedInternetMin = speedInternetMin;
         this.speedInternetMax = speedInternetMax;
     }
 
 
+
+
     public void internet() {
         System.out.println("Я зашел в интернет и моя скорость " + speedInternetMax + " mb/s");
     }
-/*
-    public Quality getQuality() {
+
+ /*   public Quality getQuality() {
         return quality;
     }
 
@@ -29,7 +42,9 @@ public class RateAlwaysOnline extends Rate {
         this.quality = quality;
     }
 
- */
+  */
+
+
 
     public void setSpeedInternetMin(int speedInternetMin) {
         this.speedInternetMin = speedInternetMin;
@@ -46,7 +61,7 @@ public class RateAlwaysOnline extends Rate {
                 ", SpeedInternetMax = " + speedInternetMax;
     }
 // не получилось сделать перечесление((
-  /*  private class Quality{
+    private class Quality{
         private InternetQuality quality;
 
         public Quality(InternetQuality quality) {
@@ -57,6 +72,6 @@ public class RateAlwaysOnline extends Rate {
         }
     }
 
-   */
+
 
 }
