@@ -22,6 +22,10 @@ public class Main {
 
         System.out.println("___________________________________________________");
 
+        Model<String> stringModel3 = new StringModel("404");
+        Car carWithoutBrakes3 = new Car(false,PETROL,stringModel3);
+        carWithoutBrakes3.showCar();
+
     }
 
 
