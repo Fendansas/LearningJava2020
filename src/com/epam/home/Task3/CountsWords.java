@@ -33,7 +33,7 @@ public class CountsWords {
         String string1 = "Ёлочка вам нравится, привет привет привет ёлочка?";
 
         List<String> words = new ArrayList<>();
-        for (String s : string1.split(" ")) {
+        for (String s : string1.split("\\s+")) {
             words.add(s.replaceAll("[^a-zA-Zа-яёА-ЯЁ]", "").toLowerCase());
         }
 
