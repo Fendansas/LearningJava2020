@@ -19,11 +19,17 @@ public class ListAdd {
         int reset = 1;
         String str;
 
+        choice(scanner, reader, list, reset);
+        System.out.println(list);
+    }
+
+    private static void choice(Scanner scanner, BufferedReader reader, ArrayList<String> list, int reset) throws IOException {
+        String str;
         while (reset == 1) {
             System.out.println("Закончить 0, продолжить 1");
             int s = scanner.nextInt();
             if (s == 1) {
-                System.out.println("Видите что текст");
+                System.out.println("Видите что либо");
                 str = reader.readLine();
                 list.add(str);
                 reset = 1;
@@ -31,6 +37,5 @@ public class ListAdd {
                 reset = 0;
             }
         }
-        System.out.println(list);
     }
 }

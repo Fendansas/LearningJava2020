@@ -11,17 +11,20 @@ public class QueueNumber {
         Queue<Integer> queue = new ArrayDeque<>();
         addToQueue(queue);
         System.out.println(queue.toString());
-        int user1 = 0;
-        int user2 = 0;
         int winNumber = 8;
         System.out.println("-----------------------------------------------------------");
+        queue(queue, winNumber);
+    }
+
+    private static void queue(Queue<Integer> queue, int winNumber) {
+        int user1;
+        int user2;
         for (int i = 0; i < 5; i++) {
-            user1 = queue.remove().intValue();
+            user1 = queue.remove();
             System.out.println(user1); //для проверки сгенереных чисел
 
-            user2 = queue.remove().intValue();
+            user2 = queue.remove();
             System.out.println(user2); //для проверки сгенереных чисел
-
 
             if (user1 == winNumber) {
                 System.out.println("Игрок номер 1 вытянул заданное значение " + user1 + " и он победил");
@@ -33,9 +36,6 @@ public class QueueNumber {
                 System.out.println("Продолжаем");
             }
         }
-
-
-
     }
 
     public static void addToQueue(Queue queue) {

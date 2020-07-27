@@ -11,10 +11,18 @@ public class TextAnalysisMain {
         String txtInput = "ииаа аа ааа";
         String stringLowerCase = txtInput.toLowerCase();
         String alph = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+        search(stringLowerCase, alph);
+
+
+    }
+
+    private static void search(String stringLowerCase, String alph) {
         for (int a = 0; a < alph.length(); a++){
+
             char letter = alph.charAt(a);
 
             TreeMap<Character, Integer> map = new TreeMap<>();
+
             for (int i = 0; i < stringLowerCase.length(); ++i) {
                 char c = stringLowerCase.charAt(i);
                 // проверяем является ли символ буквой
@@ -31,7 +39,5 @@ public class TextAnalysisMain {
                 System.out.println("Число повторов буквы "+ letter+" - "+map.get(letter));
             }
         }
-
-
     }
 }
