@@ -24,9 +24,8 @@ public class TextWords {
         System.out.println(string);
 
         System.out.println("_______________________");
-        for (int i = 0; i < filtered.size(); i++) {
-            System.out.println(filtered.get(i));
-
+        for (String s : filtered) {
+            System.out.println(s);
         }
         System.out.println("_______________________");
 // можно еще и в строку
