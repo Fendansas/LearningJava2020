@@ -18,10 +18,14 @@ public class TextWords {
         List list = Arrays.asList(arrString);
         ArrayList<String> strings = new ArrayList<String>(list);
 
-        List<String> filtered = strings.stream()
+        //List<String> filtered = strings.stream()    можно и так
+        strings.stream()
                 .filter(p -> p.startsWith("д"))
-                .collect(Collectors.toList());
-        System.out.println(string);
+                .map(String::toUpperCase) // в условии нужно на оборот
+                .forEach(System.out::println);
+                //.collect(Collectors.toList()); если делаем коллекцию то выводим как написано ниже
+
+       /* System.out.println(string);
 
         System.out.println("_______________________");
         for (String s : filtered) {
@@ -30,6 +34,8 @@ public class TextWords {
         System.out.println("_______________________");
 // можно еще и в строку
         System.out.println(filtered);
+
+        */
 
 
     }
