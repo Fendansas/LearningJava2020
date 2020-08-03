@@ -1,7 +1,7 @@
 package com.epam.home.task8;
 
 public class Model {
-    String name;
+    private String name;
 
     public Model(String name) {
         this.name = name;
@@ -13,5 +13,12 @@ public class Model {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Model{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
