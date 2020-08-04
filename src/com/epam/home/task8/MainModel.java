@@ -43,6 +43,32 @@ public class MainModel {
         System.out.println("+++++++++++++++++++++++++");
         System.out.println(listV);
 
+ //_____________________________________________________________
+
+
 
     }
+
+
+
+
+
+
+
+
+
+
+    /*final List<String> collected = Stream.concat(
+            Stream.of(a)
+                    .flatMap(item -> Stream.of(item.b))
+                    .flatMap(itemB -> itemB.models.stream())
+                    .map(model -> model.field),
+            Stream.of(a)
+                    .flatMap(itemA -> itemA.models.stream())
+                    .map(model -> model.field))
+            .collect(Collectors.toList());
+
+        collected.forEach(System.out::println);
+
+     */
 }
