@@ -15,9 +15,9 @@ public class Main {
         LocalDateTime departureTimeLON = departureTime.plusDays(5L);
 
 
-        Task task = new Task("Поспать", "Дела", URGENTLY,departureTimeURG);
-        Task task1 = new Task("Поесть", "Дела", CURRENT,departureTimeCUR);
-        Task task2 = new Task("Домой", "Дела", LONG,departureTimeLON);
+        Task task = new Task("Поспать", "Дела", URGENTLY);
+        Task task1 = new Task("Поесть", "Дела", CURRENT);
+        Task task2 = new Task("Домой", "Дела", LONG);
 
         notebook.addTask(task);
         notebook.addTask(task1);

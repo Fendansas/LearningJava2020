@@ -8,30 +8,38 @@ public class Task {
     private String name;
     private String category;
     private Priority priority;
-    //private LocalDateTime deadLine1 = LocalDateTime.now();
-    private LocalDateTime deadLine;
+    private LocalDateTime deadLine1 = LocalDateTime.now();
+    private LocalDateTime deadLine = deadLine1.plusDays(5L);
 
 
-    public Task(String name, String category, Priority priority,LocalDateTime deadLine) {
+
+    public Task(String name, String category, Priority priority) {
         this.name = name;
         this.category = category;
         this.priority = priority;
-       this.deadLine = deadLine;
+        //this.deadLine = deadLine;
     }
 
-   /* private LocalDateTime setLocalDateTime(LocalDateTime e) {
-        if (priority.equals(URGENTLY)) {
+   /* private LocalDateTime setLocalDateTime() {
+        if (priority.name().equals(URGENTLY)) {
 
-            deadLine1.plusDays(1L);
-        } else if (priority.equals(CURRENT)) {
-            deadLine1.plusDays(2L);
-        } else if (priority.equals(LONG)) {
-            deadLine1.plusDays(3L);
+            deadLine = deadLine1.plusDays(1L);
+        } else if (priority.name().equals(CURRENT)) {
+            deadLine = deadLine1.plusDays(2L);
+        } else if (priority.name().equals(LONG)) {
+            deadLine = deadLine1.plusDays(3L);
         }
-        return e;
+
+
+        deadLine.plusDays(3L);
+        return deadLine;
     }
 
     */
+
+
+
+
     //else (priority.equals(LONG)) {
     //    localDateTime.plusDays(LONG.getType())
 
