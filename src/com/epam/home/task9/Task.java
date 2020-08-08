@@ -1,10 +1,14 @@
 package com.epam.home.task9;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 import static com.epam.home.task9.Priority.*;
 
-public class Task {
+public class Task implements Serializable {
+
+    private static final long serialVersionUID = 5023650380303526172L;
+
     private String name;
     private String category;
     private Priority priority;

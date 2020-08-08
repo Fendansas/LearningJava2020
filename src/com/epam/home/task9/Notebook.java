@@ -1,9 +1,12 @@
 package com.epam.home.task9;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Notebook {
+public class Notebook implements Serializable {
+
+    private static final long serialVersionUID = -8627723303753989017L;
 
     private List<Task> tasks = new ArrayList<>();
 
