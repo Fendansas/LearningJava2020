@@ -7,4 +7,6 @@ public interface NoteStoringService {
     Notebook readNote();
 
 
+
+
 }

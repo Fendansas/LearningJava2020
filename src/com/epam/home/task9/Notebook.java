@@ -27,6 +27,8 @@ public class Notebook implements Serializable {
         }
     }
 
+
+
     public List<Task> getTasks() {
         return tasks;
     }
