@@ -11,23 +11,29 @@ public class Task implements Serializable {
 
     private String name;
     private String category;
-    private Priority priority = LONG;
-    //private LocalDateTime deadLine1 = LocalDateTime.now();
+    private Priority priority;
+   // private LocalDateTime deadLine1 = LocalDateTime.now();
     private LocalDateTime deadLine = LocalDateTime.now();
-    // private LocalDateTime deadLine = deadLine1.plusDays(5L);
+    //private LocalDateTime deadLine = deadLine1.plusDays(5L);
 
-
-    public Task(String name, String category) {
+    public Task(String name, String category, Priority priority, LocalDateTime deadLine) {
         this.name = name;
         this.category = category;
-        //this.priority = priority;
-        //this.deadLine = deadLine;
+        this.priority = priority;
 
+        if (priority.equals(LONG)){
+            deadLine = deadLine.plusDays(5L);
+        } else if (priority.equals(URGENTLY)){
+            deadLine = deadLine.plusDays(1L);
+        } else if (priority.equals(CURRENT)){
+            deadLine = deadLine.plusDays(2L);
+        }
 
-
-
-
+        this.deadLine = deadLine;
     }
+
+
+
 
     /*private LocalDateTime setLocalDateTime() {
         if (priority.name().equals(URGENTLY)) {

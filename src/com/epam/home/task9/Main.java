@@ -16,79 +16,48 @@ public class Main {
     private static NoteStoringService noteStoringService = new NoteStoringServiceImpl();
     private static List<Task> tasks;
     private static Notebook notebook;
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
         Notebook notebook = new Notebook();
+        LocalDateTime departureTime = LocalDateTime.now();
 
-        load();
-
-        Scanner scanner = new Scanner(System.in);
-        String choice = "";
-        while (true) {
-            //print(tasks);
-            System.out.println();
-            Task task = TaskCreator.create();
-            notebook.addTask(task);
-            System.out.println(tasks);
-            System.out.println("Enter choice: ");
-            choice = scanner.nextLine();
-            if (!choice.equals("stop")) {
-                processUserChoice(notebook, choice);
-            } else {
-                break;
-            }
-        }
-        noteStoringService.saveNote(notebook);
-
-
-        //oteStoringService.saveNote(notebook);
-
-
-      /*  Scanner scanner = new Scanner(System.in);
-        String choice = "";
-        while (true) {
-            print(items);
-            System.out.println();
-            System.out.println(cart);
-            System.out.println("Enter choice: ");
-            choice = scanner.nextLine();
-            if (!choice.equals("stop")) {
-                processUserChoice(cart, choice);
-            } else {
-                break;
-            }
-        }
-
-        cartStoringService.saveCart(cart);
-
-       */
-//////////////////////////////////////////////////////////////////////////////
-
-       /* LocalDateTime departureTime = LocalDateTime.now();
-        load();
         System.out.println(notebook);
-        LocalDateTime departureTimeURG = departureTime.plusDays(1L);
-        LocalDateTime departureTimeCUR = departureTime.plusDays(2L);
-        LocalDateTime departureTimeLON = departureTime.plusDays(5L);
 
-        Task task = new Task("Поспать", "Дела");
-        Task task1 = new Task("Поесть", "Дела");
-        Task task2 = new Task("Домой", "Дела");
-        TaskCreator.create();
+        Task task = new Task("Поспать", "Дела", LONG, departureTime);
+        Task task1 = new Task("Поесть", "Дела", CURRENT, departureTime);
+        Task task2 = new Task("Домой", "Дела", URGENTLY, departureTime);
+        //TaskCreator.create();
+        System.out.println(task2);
 
         notebook.addTask(task);
         notebook.addTask(task1);
         notebook.addTask(task2);
-        notebook.addTask(TaskCreator.create());
+        //notebook.addTask(TaskCreator.create());
         System.out.println(notebook);
-        noteStoringService.saveNote(notebook);
+        //taskStoringService.saveTask(task);
+        //noteStoringService.saveNote(notebook);
 
         notebook.deleteTask("Поесть");
-
         System.out.println(notebook);
 
+        //создаем задачу
+        notebook.addTask(Notebook.create());
+        System.out.println(notebook);
 
-        */
+        //System.out.println(notebook.getTasks());
+
+        //удаляем
+        notebook.deleteTask(scanner.nextLine());
+        System.out.println(notebook.getTasks());
+
+        // меняем имя
+        System.out.println("В видите название задачи для ее изменения");
+        notebook.renameTask(scanner.nextLine());
+        System.out.println(notebook.getTasks());
+
+
+
 
         ////////////////////////////////////////////////////////////////
     }
@@ -103,7 +72,7 @@ public class Main {
     }
 
     //создаем и удаляем
-    private static void processUserChoice(Notebook notebook, String name) {
+   /* private static void processUserChoice(Notebook notebook, String name) {
         String[] userChoice = name.split(" ");
         switch (userChoice[0]) {
             case "add":
@@ -118,6 +87,8 @@ public class Main {
         }
 
     }
+
+    */
 
     private static void addToNote(Notebook notebook, String item) {
         List<Task> collectedItems = tasks.stream()
