@@ -20,29 +20,65 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Notebook notebook = new Notebook();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Старт __________________________________________________________");
         LocalDateTime departureTime = LocalDateTime.now();
+        //tasks = taskStoringService.readTasks();
+        notebook = noteStoringService.readNote();
+
+        boolean state = true;
+
+        while (state == true) {
+            printOptions();
+            int a = scanner.nextInt();
+            if (a==1) {
+                System.out.println(notebook);
+                state = true;
+            } else if (a == 2){
+                notebook.addTask(Notebook.create());
+                noteStoringService.saveNote(notebook);
+                System.out.println(notebook);
+                state = true;
+            } else if (a == 3){
+                System.out.println("В видите название задачи для ее изменения");
+                notebook.renameTask(scanner.nextLine());
+                noteStoringService.saveNote(notebook);
+                System.out.println(notebook);
+                state = true;
+            } else if (a == 4){
+                notebook.deleteTask(scanner.nextLine());
+                noteStoringService.saveNote(notebook);
+                System.out.println(notebook.getTasks());
+                state = true;
+            } else if (a == 0){
+                state = false;
+            }
+
+        }
+
+
+        System.out.println("_____________________");
+
 
         System.out.println(notebook);
+        System.out.println("_____________________");
 
-        Task task = new Task("Поспать", "Дела", LONG, departureTime);
+        /*Task task = new Task("Поспать", "Дела", LONG, departureTime);
         Task task1 = new Task("Поесть", "Дела", CURRENT, departureTime);
         Task task2 = new Task("Домой", "Дела", URGENTLY, departureTime);
-        //TaskCreator.create();
-        System.out.println(task2);
 
         notebook.addTask(task);
         notebook.addTask(task1);
         notebook.addTask(task2);
-        //notebook.addTask(TaskCreator.create());
         System.out.println(notebook);
-        //taskStoringService.saveTask(task);
-        //noteStoringService.saveNote(notebook);
 
         notebook.deleteTask("Поесть");
         System.out.println(notebook);
 
-        //создаем задачу
-        notebook.addTask(Notebook.create());
+         */
+
+        //создаем задачу =========================================================
+     /*   notebook.addTask(Notebook.create());
         System.out.println(notebook);
 
         //System.out.println(notebook.getTasks());
@@ -57,9 +93,12 @@ public class Main {
         System.out.println(notebook.getTasks());
 
 
+        //taskStoringService.saveTask(task);
+        noteStoringService.saveNote(notebook);
 
+      */
 
-        ////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////============================
     }
 
     private static void load() throws IOException {
@@ -98,4 +137,13 @@ public class Main {
             notebook.addTask(collectedItems.get(0));
         }
     }
+
+    private static void printOptions() {
+        System.out.println("1 -> посмотреть список задачь");
+        System.out.println("2 -> создать новую задачу");
+        System.out.println("3 -> переименовать задачу");
+        System.out.println("4 -> Удалить задачу");
+        System.out.println("0 -> ваход");
+    }
+
 }
