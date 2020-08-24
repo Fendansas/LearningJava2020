@@ -26,7 +26,7 @@ public class Notebook implements Serializable {
     // удаляем задачу
     public void deleteTask(String task) {
         Task taskToRemove = null;
-        System.out.println("В видите название задачи для ее удаленя");
+
         for (Task taskInNotebook : tasks) {
             if (taskInNotebook.getName().equals(task)) { // ищем есть такое имя задачит в списке
                 taskToRemove = taskInNotebook; // если задача такая есть присваеваем значение
@@ -38,6 +38,22 @@ public class Notebook implements Serializable {
     }
 
     ///////////////////////////////////////////////////////////////
+    //выводим время которе оталось о конца выполнения задачи
+   /* public void timeToAnd(String task) {
+        LocalDateTime localDateTimeAnd = LocalDateTime.now();
+        for (Task taskInNotebook : tasks) {
+            if (taskInNotebook.getName().equals(task)) { // ищем есть такое имя задачит в списке
+                System.out.println("Время");
+                System.out.println(localDateTimeAnd.minus(taskInNotebook.getDeadLine()));
+                taskInNotebook.setName(scanner.nextLine()); // если задача такая есть присваеваем новое имя
+            }
+        }
+
+    }
+
+    */
+
+
 
     // создаем задачу
     public static Task create() {

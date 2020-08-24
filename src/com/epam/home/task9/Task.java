@@ -2,6 +2,7 @@ package com.epam.home.task9;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.time.temporal.TemporalAmount;
 
 import static com.epam.home.task9.Priority.*;
 
@@ -80,9 +81,7 @@ public class Task implements Serializable {
         this.priority = priority;
     }
 
-    public LocalDateTime getDeadLine() {
-        return deadLine;
-    }
+
 
     public void setDeadLine(LocalDateTime deadLine) {
         this.deadLine = deadLine;

@@ -4,6 +4,8 @@
     <list default="true" id="671a86f0-a9e2-4d0c-ae2f-c925654754a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/epam/home/task9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task9/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task9/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task9/Notebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/home/task9/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/home/task9/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +25,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="991">
-              <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+            <state relative-caret-position="1297">
+              <caret line="84" column="54" lean-forward="true" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3767#3768#0" expanded="true" />
-                <element signature="e#3817#3818#0" expanded="true" />
+                <element signature="e#3725#3726#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,13 +50,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Notebook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+            <state relative-caret-position="192">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#583#584#0" expanded="true" />
                 <element signature="e#614#615#0" expanded="true" />
-                <element signature="method#getDate#0;class#Notebook#0" />
+                <element signature="e#1803#1804#0" expanded="true" />
+                <element signature="e#1886#1887#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/NoteStoringServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
+            <state relative-caret-position="68">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
@@ -79,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="255">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="1683">
               <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -166,12 +180,12 @@
         <option value="$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringService.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task9/NoteStoringService.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/home/task9/Task.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task9/TaskAdjustment.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task9/TaskCreator.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/home/task9/Notebook.java" />
         <option value="$PROJECT_DIR$/noteStorage.txt" />
         <option value="$PROJECT_DIR$/storage.txt" />
+        <option value="$PROJECT_DIR$/src/com/epam/home/task9/Task.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/home/task9/Notebook.java" />
         <option value="$PROJECT_DIR$/src/com/epam/home/task9/Main.java" />
       </list>
     </option>
@@ -731,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597957582734</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="V24.08">
+      <created>1598216946583</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1598216946583</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -745,8 +766,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.21454768" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.21699266" />
       <window_info id="Structure" order="1" sideWeight="0.5007429" side_tool="true" weight="0.16625917" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -807,7 +829,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="V15.06-1" />
     <MESSAGE value="V21.06" />
     <MESSAGE value="V22.06" />
     <MESSAGE value="V26.06" />
@@ -832,7 +853,8 @@
     <MESSAGE value="V09.08" />
     <MESSAGE value="V17.08" />
     <MESSAGE value="V21.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="V21.08" />
+    <MESSAGE value="V24.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="V24.08" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/tasks/task4/MainTask4.java">
@@ -1166,16 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/TaskCreator.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Priority.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1183,44 +1195,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/NoteStoringService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/NoteStoringServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningJava2020.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/ObjectInputStream.java">
@@ -1240,27 +1215,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/NoteStoringService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/NoteStoringServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/TaskStoringServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Notebook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="192">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#583#584#0" expanded="true" />
             <element signature="e#614#615#0" expanded="true" />
-            <element signature="method#getDate#0;class#Notebook#0" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/home/task9/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="991">
-          <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+        <state relative-caret-position="1297">
+          <caret line="84" column="54" lean-forward="true" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3767#3768#0" expanded="true" />
-            <element signature="e#3817#3818#0" expanded="true" />
+            <element signature="e#3725#3726#0" expanded="true" />
           </folding>
         </state>
       </provider>

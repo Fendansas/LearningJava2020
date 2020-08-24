@@ -2,6 +2,7 @@ package com.epam.home.task9;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -25,80 +26,73 @@ public class Main {
         LocalDateTime departureTime = LocalDateTime.now();
         //tasks = taskStoringService.readTasks();
         notebook = noteStoringService.readNote();
+        //notebook.timeToAnd(scanner.next());
 
         boolean state = true;
 
         while (state == true) {
-            printOptions();
-            int a = scanner.nextInt();
-            if (a==1) {
-                System.out.println(notebook);
-                state = true;
-            } else if (a == 2){
-                notebook.addTask(Notebook.create());
-                noteStoringService.saveNote(notebook);
-                System.out.println(notebook);
-                state = true;
-            } else if (a == 3){
-                System.out.println("В видите название задачи для ее изменения");
-                notebook.renameTask(scanner.nextLine());
-                noteStoringService.saveNote(notebook);
-                System.out.println(notebook);
-                state = true;
-            } else if (a == 4){
-                notebook.deleteTask(scanner.nextLine());
-                noteStoringService.saveNote(notebook);
-                System.out.println(notebook.getTasks());
-                state = true;
-            } else if (a == 0){
-                state = false;
+            try {
+                printOptions();
+                int a = scanner.nextInt();
+                state = Menu(notebook, scanner, state, a);
+            } catch (InputMismatchException e) {
+                System.out.println("Ошибка : " + e);
+                scanner.nextLine();
+                System.out.println("Попробуй еще");
             }
-
         }
 
 
-        System.out.println("_____________________");
-
-
+      /*  System.out.println("_____________________");
         System.out.println(notebook);
         System.out.println("_____________________");
+
+       */
 
         /*Task task = new Task("Поспать", "Дела", LONG, departureTime);
         Task task1 = new Task("Поесть", "Дела", CURRENT, departureTime);
         Task task2 = new Task("Домой", "Дела", URGENTLY, departureTime);
-
         notebook.addTask(task);
         notebook.addTask(task1);
         notebook.addTask(task2);
         System.out.println(notebook);
-
         notebook.deleteTask("Поесть");
         System.out.println(notebook);
-
          */
 
-        //создаем задачу =========================================================
-     /*   notebook.addTask(Notebook.create());
-        System.out.println(notebook);
+    }
 
-        //System.out.println(notebook.getTasks());
-
-        //удаляем
-        notebook.deleteTask(scanner.nextLine());
-        System.out.println(notebook.getTasks());
-
-        // меняем имя
-        System.out.println("В видите название задачи для ее изменения");
-        notebook.renameTask(scanner.nextLine());
-        System.out.println(notebook.getTasks());
-
-
-        //taskStoringService.saveTask(task);
-        noteStoringService.saveNote(notebook);
-
-      */
-
-        ////////////////////////////////////////////////////////////////============================
+    private static boolean Menu(Notebook notebook, Scanner scanner, boolean state, int a) {
+        if (a == 1) {
+            System.out.println(notebook);
+            state = true;
+        } else if (a == 2) {
+            try {
+                notebook.addTask(Notebook.create());
+                noteStoringService.saveNote(notebook);
+                System.out.println(notebook);
+                state = true;
+            } catch (NullPointerException e) {
+                System.out.println("Ошибка : " + e);
+                scanner.nextLine();
+                System.out.println("Поробуй еще раз");
+            }
+        } else if (a == 3) {
+            System.out.println("В видите название задачи для ее изменения");
+            notebook.renameTask(scanner.next());
+            noteStoringService.saveNote(notebook);
+            System.out.println(notebook);
+            state = true;
+        } else if (a == 4) {
+            System.out.println("В видите название задачи для ее удаленя");
+            notebook.deleteTask(scanner.next());
+            noteStoringService.saveNote(notebook);
+            System.out.println(notebook.getTasks());
+            state = true;
+        } else if (a == 0) {
+            state = false;
+        }
+        return state;
     }
 
     private static void load() throws IOException {
@@ -110,26 +104,8 @@ public class Main {
         tasks.forEach(System.out::println);
     }
 
-    //создаем и удаляем
-   /* private static void processUserChoice(Notebook notebook, String name) {
-        String[] userChoice = name.split(" ");
-        switch (userChoice[0]) {
-            case "add":
-                addToNote(notebook, userChoice[1]);
-                break;
-            case "delete":
-                notebook.deleteTask(userChoice[1]);
 
-                break;
-            default:
-                System.out.println("bla-bla-bla");
-        }
-
-    }
-
-    */
-
-    private static void addToNote(Notebook notebook, String item) {
+    /*private static void addToNote(Notebook notebook, String item) {
         List<Task> collectedItems = tasks.stream()
                 .filter(itemInStream -> itemInStream.getName().equals(item))
                 .collect(Collectors.toList());
@@ -138,12 +114,14 @@ public class Main {
         }
     }
 
+     */
+
     private static void printOptions() {
         System.out.println("1 -> посмотреть список задачь");
         System.out.println("2 -> создать новую задачу");
         System.out.println("3 -> переименовать задачу");
         System.out.println("4 -> Удалить задачу");
-        System.out.println("0 -> ваход");
+        System.out.println("0 -> выход");
     }
 
 }
