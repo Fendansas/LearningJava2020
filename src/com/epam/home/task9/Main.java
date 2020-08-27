@@ -24,9 +24,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Старт __________________________________________________________");
         LocalDateTime departureTime = LocalDateTime.now();
-        //tasks = taskStoringService.readTasks();
+        //Task task = new Task("Поспать", "Дела", LONG, departureTime);
+        //notebook.addTask(task);
+        //noteStoringService.saveNote(notebook);
+
+        tasks = taskStoringService.readTasks();
         notebook = noteStoringService.readNote();
-        //notebook.timeToAnd(scanner.next());
+
+
+
 
         boolean state = true;
 
@@ -89,6 +95,15 @@ public class Main {
             noteStoringService.saveNote(notebook);
             System.out.println(notebook.getTasks());
             state = true;
+        } else if (a == 5) {
+            System.out.println("Сортировка");
+            notebook.sort();
+            state = true;
+        } else if (a == 6) {
+            System.out.println("Time to end");
+            notebook.timeToAnd(scanner.next());
+            state = true;
+
         } else if (a == 0) {
             state = false;
         }
@@ -105,22 +120,15 @@ public class Main {
     }
 
 
-    /*private static void addToNote(Notebook notebook, String item) {
-        List<Task> collectedItems = tasks.stream()
-                .filter(itemInStream -> itemInStream.getName().equals(item))
-                .collect(Collectors.toList());
-        if (!collectedItems.isEmpty()) {
-            notebook.addTask(collectedItems.get(0));
-        }
-    }
 
-     */
 
     private static void printOptions() {
         System.out.println("1 -> посмотреть список задачь");
         System.out.println("2 -> создать новую задачу");
         System.out.println("3 -> переименовать задачу");
         System.out.println("4 -> Удалить задачу");
+        System.out.println("5 -> Сортируем задачи");
+        System.out.println("6 -> Time to end");
         System.out.println("0 -> выход");
     }
 

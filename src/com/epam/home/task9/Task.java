@@ -34,29 +34,6 @@ public class Task implements Serializable {
     }
 
 
-
-
-    /*private LocalDateTime setLocalDateTime() {
-        if (priority.name().equals(URGENTLY)) {
-
-            deadLine = deadLine1.plusDays(1L);
-        } else if (priority.name().equals(CURRENT)) {
-            deadLine = deadLine1.plusDays(2L);
-        } else if (priority.name().equals(LONG)) {
-            deadLine = deadLine1.plusDays(3L);
-        }
-        deadLine.plusDays(3L);
-        return deadLine;
-    }
-
-     */
-
-
-    //else (priority.equals(LONG)) {
-    //    localDateTime.plusDays(LONG.getType())
-
-    //Ticket ticket1 = new Ticket(100, departureTime1, departureTime1.plusHours(4L), "9C");
-
     public String getName() {
         return name;
     }
@@ -85,6 +62,10 @@ public class Task implements Serializable {
 
     public void setDeadLine(LocalDateTime deadLine) {
         this.deadLine = deadLine;
+    }
+
+    public LocalDateTime getDeadLine() {
+        return deadLine;
     }
 
     @Override

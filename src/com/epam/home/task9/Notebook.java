@@ -1,11 +1,10 @@
 package com.epam.home.task9;
 
 import java.io.Serializable;
+import java.time.Duration;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.time.Period;
+import java.util.*;
 
 import static com.epam.home.task9.Priority.*;
 
@@ -17,6 +16,27 @@ public class Notebook implements Serializable {
     private static final Scanner scanner = new Scanner(System.in);
     private static Priority priority;
 
+    /*LocalDate from = LocalDate.of(2020, 5, 4);
+    LocalDate to = LocalDate.of(2020, 10, 10);
+
+    Period period = Period.between(from, to);
+
+        System.out.print(period.getYears() + " years,");
+        System.out.print(period.getMonths() + " months,");
+        System.out.print(period.getDays() + " days");
+
+     */
+    //public void endTime(){
+
+
+    //LocalDateTime from =
+    //}
+
+    //сортировка по дате
+    public void sort() {
+        tasks.sort(Comparator.comparing(o -> o.getDeadLine()));
+        System.out.println(tasks);
+    }
 
     // добавляем задачу
     public void addTask(Task task) {
@@ -37,27 +57,42 @@ public class Notebook implements Serializable {
         }
     }
 
-    ///////////////////////////////////////////////////////////////
     //выводим время которе оталось о конца выполнения задачи
-   /* public void timeToAnd(String task) {
+    public void timeToAnd(String task) {
         LocalDateTime localDateTimeAnd = LocalDateTime.now();
         for (Task taskInNotebook : tasks) {
             if (taskInNotebook.getName().equals(task)) { // ищем есть такое имя задачит в списке
                 System.out.println("Время");
-                System.out.println(localDateTimeAnd.minus(taskInNotebook.getDeadLine()));
-                taskInNotebook.setName(scanner.nextLine()); // если задача такая есть присваеваем новое имя
+                LocalDateTime from = LocalDateTime.now();
+                LocalDateTime to = taskInNotebook.getDeadLine();
+                Duration duration = Duration.between(from, to);
+// days between from and to
+                System.out.println(duration.toDays() + " days");
+
+                // hours between from and to
+                System.out.println(duration.toHours() + " hours");
+
+                // minutes between from and to
+                System.out.println(duration.toMinutes() + " minutes");
             }
         }
 
     }
 
-    */
-
-
-
     // создаем задачу
     public static Task create() {
         return new Task(getName(), getCategory(), getPriority(), getDate());
+    }
+
+    //коректеровка имени задачи
+    public void renameTask(String task) {
+        for (Task taskInNotebook : tasks) {
+            if (taskInNotebook.getName().equals(task)) { // ищем есть такое имя задачит в списке
+                System.out.println("В видите новое имя");
+                taskInNotebook.setName(scanner.nextLine()); // если задача такая есть присваеваем новое имя
+            }
+        }
+
     }
 
     private static String getName() {
@@ -93,32 +128,6 @@ public class Notebook implements Serializable {
 
     }
     ////////////////////////////////////////////////////////////
-
-    //коректеровка задачи
-    public void renameTask(String task) {
-        for (Task taskInNotebook : tasks) {
-            if (taskInNotebook.getName().equals(task)) { // ищем есть такое имя задачит в списке
-                System.out.println("В видите новое имя");
-                taskInNotebook.setName(scanner.nextLine()); // если задача такая есть присваеваем новое имя
-            }
-        }
-
-    }
-
-    //сортеровка по имнеи
-    public void sortName(){
-       // tasks.sort(tasks, new Comparator<Task>());
-    }
-    /*Collections.sort(list, new Comparator<ObjectName>() {
-        public int compare(ObjectName o1, ObjectName o2) {
-            return o1.toString().compareTo(o2.toString());
-        }
-
-     */
-
-
-
-
 
 
     public List<Task> getTasks() {
