@@ -32,8 +32,6 @@ public class Main {
         notebook = noteStoringService.readNote();
 
 
-
-
         boolean state = true;
 
         while (state == true) {
@@ -47,25 +45,6 @@ public class Main {
                 System.out.println("Попробуй еще");
             }
         }
-
-
-      /*  System.out.println("_____________________");
-        System.out.println(notebook);
-        System.out.println("_____________________");
-
-       */
-
-        /*Task task = new Task("Поспать", "Дела", LONG, departureTime);
-        Task task1 = new Task("Поесть", "Дела", CURRENT, departureTime);
-        Task task2 = new Task("Домой", "Дела", URGENTLY, departureTime);
-        notebook.addTask(task);
-        notebook.addTask(task1);
-        notebook.addTask(task2);
-        System.out.println(notebook);
-        notebook.deleteTask("Поесть");
-        System.out.println(notebook);
-         */
-
     }
 
     private static boolean Menu(Notebook notebook, Scanner scanner, boolean state, int a) {
@@ -100,7 +79,7 @@ public class Main {
             notebook.sort();
             state = true;
         } else if (a == 6) {
-            System.out.println("Time to end");
+            System.out.println("В видите имя задачи");
             notebook.timeToAnd(scanner.next());
             state = true;
 
@@ -118,8 +97,6 @@ public class Main {
     private static void print(List<Task> tasks) {
         tasks.forEach(System.out::println);
     }
-
-
 
 
     private static void printOptions() {

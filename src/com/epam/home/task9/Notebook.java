@@ -16,21 +16,6 @@ public class Notebook implements Serializable {
     private static final Scanner scanner = new Scanner(System.in);
     private static Priority priority;
 
-    /*LocalDate from = LocalDate.of(2020, 5, 4);
-    LocalDate to = LocalDate.of(2020, 10, 10);
-
-    Period period = Period.between(from, to);
-
-        System.out.print(period.getYears() + " years,");
-        System.out.print(period.getMonths() + " months,");
-        System.out.print(period.getDays() + " days");
-
-     */
-    //public void endTime(){
-
-
-    //LocalDateTime from =
-    //}
 
     //сортировка по дате
     public void sort() {
@@ -66,14 +51,9 @@ public class Notebook implements Serializable {
                 LocalDateTime from = LocalDateTime.now();
                 LocalDateTime to = taskInNotebook.getDeadLine();
                 Duration duration = Duration.between(from, to);
-// days between from and to
-                System.out.println(duration.toDays() + " days");
+                int hours = (int) (duration.toHours() % 24);
+                System.out.println("До дэдлайна осталось " + duration.toDays() + " Дней и " + hours + " часов");
 
-                // hours between from and to
-                System.out.println(duration.toHours() + " hours");
-
-                // minutes between from and to
-                System.out.println(duration.toMinutes() + " minutes");
             }
         }
 
