@@ -20,6 +20,7 @@ public class Main {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
+        System.out.println(1);
         Notebook notebook = new Notebook();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Старт __________________________________________________________");
